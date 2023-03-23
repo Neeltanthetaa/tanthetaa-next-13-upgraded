@@ -11,7 +11,9 @@ const inter = Inter({
 const RootLayout = ({ children }) => {
 	return (
 		<html lang="en">
-			<body className={cx(inter.className, "flex flex-col items-center place-content-start")}>{children}</body>
+			<body className={cx(inter.className, "w-full flex flex-col items-center place-content-start")}>
+				{children}
+			</body>
 		</html>
 	);
 };

@@ -1,0 +1,55 @@
+[
+  {
+    "data": {
+      "header": {
+        "title": "Android Game",
+        "subtitle": "Development Services",
+        "description": "Kevuru Games is an Android game development company that has tremendous experience in creating top-notch 2D and 3D games for a wide variety of audiences. We provide modern and technically advanced Android game development services that allow our customers to get the desired product on time, according to all requirements.",
+        "bgImage": "androidBg",
+        "heroImage": "androidHero"
+      },
+      "section1": {
+        "title": "Our Android Game",
+        "subtitle": "Development Services",
+        "description": "If you are looking for the best studio to hire Android game developers, then you can breathe easy: you've come to the right place. Our Android game development studio knows how to create games that will definitely resonate with your target audience. We can offer you the following services."
+      },
+      "section2": {
+        "title": "Cooperation",
+        "subtitle": "Models",
+        "description": "We offer services to our clients based on several interaction models that can be tailored to meet your specific needs. You can choose one of the available models or combine them. We are ready to help you by choosing the most suitable model for you."
+      },
+      "section3": {
+        "title": "Technologies",
+        "subtitle": "We Are Well Versed In"
+      },
+      "section4": {
+        "title": "Quick Facts",
+        "subtitle": "About Us",
+        "description": "We focus on providing Android game development services to create projects that stand out and stay in memory for long. Our Android game developers have extensive experience enabling us to help global gaming companies with their popular titles."
+      },
+      "section5": {
+        "title": "Our Fundamental Benefits",
+        "subtitle": "in Android Game Development",
+        "description": "The key aspects of our approach to Android game app development are solid technical knowledge and excellent orientation in the players' desires and expectations. We follow all the wishes of the client and at the same time offer innovative and relevant solutions to increase the player's engagement and achieve a large number of game downloads."
+      },
+      "section6": {
+        "title": "Types of Android Games",
+        "subtitle": "We Develop"
+      },
+      "section7": {
+        "title": "Types of Android Games",
+        "subtitle": "We Develop"
+      }
+    },
+    "_id": "games/android.json",
+    "_raw": {
+      "sourceFilePath": "games/android.json",
+      "sourceFileName": "android.json",
+      "sourceFileDir": "games",
+      "contentType": "data",
+      "flattenedPath": "games/android"
+    },
+    "type": "Guide",
+    "slug": "games/android"
+  }
+]

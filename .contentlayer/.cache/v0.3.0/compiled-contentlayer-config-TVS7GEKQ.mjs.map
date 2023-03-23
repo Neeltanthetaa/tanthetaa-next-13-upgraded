@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../contentlayer.config.js"],
+  "sourcesContent": ["import { defineDocumentType, makeSource } from \"contentlayer/source-files\";\n\nexport const Guide = defineDocumentType(() => ({\n\tname: \"Guide\",\n\tfilePathPattern: `**/*.json`,\n\tfields: {\n\t\tdata: {\n\t\t\ttype: \"json\",\n\t\t\tcontent: \"Guiding json index\",\n\t\t\trequired: true,\n\t\t},\n\t},\n\tcomputedFields: {\n\t\tslug: {\n\t\t\ttype: \"string\",\n\t\t\tresolve: (doc) => doc._raw.flattenedPath,\n\t\t},\n\t},\n}));\n\nexport default makeSource({\n\tcontentDirPath: \"content\",\n\tdocumentTypes: [Guide],\n});\n"],
+  "mappings": ";AAAA,SAAS,oBAAoB,kBAAkB;AAExC,IAAM,QAAQ,mBAAmB,OAAO;AAAA,EAC9C,MAAM;AAAA,EACN,iBAAiB;AAAA,EACjB,QAAQ;AAAA,IACP,MAAM;AAAA,MACL,MAAM;AAAA,MACN,SAAS;AAAA,MACT,UAAU;AAAA,IACX;AAAA,EACD;AAAA,EACA,gBAAgB;AAAA,IACf,MAAM;AAAA,MACL,MAAM;AAAA,MACN,SAAS,CAAC,QAAQ,IAAI,KAAK;AAAA,IAC5B;AAAA,EACD;AACD,EAAE;AAEF,IAAO,8BAAQ,WAAW;AAAA,EACzB,gBAAgB;AAAA,EAChB,eAAe,CAAC,KAAK;AACtB,CAAC;",
+  "names": []
+}
