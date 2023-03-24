@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* .bgGround {
+  background-size: cover;
+  background: url("../public/assets/games/androidGamesBg.png") no-repeat center
+    center;
+  border-radius: 45px !important;
+} */

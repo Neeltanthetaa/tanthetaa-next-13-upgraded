@@ -5,40 +5,217 @@
         "title": "Android Game",
         "subtitle": "Development Services",
         "description": "Kevuru Games is an Android game development company that has tremendous experience in creating top-notch 2D and 3D games for a wide variety of audiences. We provide modern and technically advanced Android game development services that allow our customers to get the desired product on time, according to all requirements.",
-        "bgImage": "androidBg",
-        "heroImage": "androidHero"
+        "bgImage": "gameBackground",
+        "heroImage": "marioBattle"
       },
       "section1": {
         "title": "Our Android Game",
         "subtitle": "Development Services",
-        "description": "If you are looking for the best studio to hire Android game developers, then you can breathe easy: you've come to the right place. Our Android game development studio knows how to create games that will definitely resonate with your target audience. We can offer you the following services."
+        "description": "If you are looking for the best studio to hire Android game developers, then you can breathe easy: you've come to the right place. Our Android game development studio knows how to create games that will definitely resonate with your target audience. We can offer you the following services.",
+        "services": [
+          {
+            "id": 1,
+            "title": "Full-Cycle Android Game Development",
+            "description": "Our Android game developers have the expertise, technical capabilities and artistic vision to create a game product of any complexity from scratch. We think over and implement the most relevant game mechanics in the game so that the players appreciate it."
+          },
+          {
+            "id": 2,
+            "title": "Assets Creation",
+            "description": "Each game in our Android studio is filled with juicy and eye-catching graphics, beautiful and smooth animation and attractive assets with which the player wants to continuously interact. We create perfectly optimized game elements for the best performance."
+          },
+          {
+            "id": 3,
+            "title": "UX/UI Design",
+            "description": "The user interface plays an important role in the convenience of players interacting with the product and their desire to continue playing sessions. Therefore, we pay close attention to creating an intuitive interface that does not distract from the game and fits perfectly into its setting and style."
+          },
+          {
+            "id": 4,
+            "title": "Testing",
+            "description": "Our Android studio gaming services include comprehensive and effective game quality control based on development criteria and goals. We track bugs and errors, ensure high performance and compatibility, establish social integration, and so on so that there are no complaints about the game."
+          },
+          {
+            "id": 5,
+            "title": "Support and Maintenance",
+            "description": "After the end of development, we continue to provide support and maintenance for the game. This service includes the creation of additional game elements, new levels and mechanics, making changes to the functions and design of game elements based on player comments and more."
+          }
+        ]
       },
       "section2": {
-        "title": "Cooperation",
-        "subtitle": "Models",
-        "description": "We offer services to our clients based on several interaction models that can be tailored to meet your specific needs. You can choose one of the available models or combine them. We are ready to help you by choosing the most suitable model for you."
+        "title": "Cooperation Models",
+        "subtitle": "Development Services",
+        "description": "We offer services to our clients based on several interaction models that can be tailored to meet your specific needs. You can choose one of the available models or combine them. We are ready to help you by choosing the most suitable model for you.",
+        "services": [
+          {
+            "id": 1,
+            "title": "Fixed Price",
+            "description": "We offer innovative Android studio game development solutions at a fixed price that is based on the detailed specifications of the project."
+          },
+          {
+            "id": 2,
+            "title": "Time and Material",
+            "description": "T&M pricing includes flexible rates and agile project execution. This model is suitable for long term projects with changing requirements."
+          },
+          {
+            "id": 3,
+            "title": "Outsourcing Managed Delivery",
+            "description": "We offer not only an experienced team capable of providing Android game development services, but also managed delivery to ensure that all services are delivered end-to-end."
+          },
+          {
+            "id": 4,
+            "title": "Dedicated Team",
+            "description": "A dedicated offshore team is offered as an extension of your own infrastructure with full support and access to all resources and facilities."
+          }
+        ]
       },
       "section3": {
         "title": "Technologies",
-        "subtitle": "We Are Well Versed In"
+        "subtitle": "We Are Well Versed In",
+        "services": [
+          {
+            "id": 1,
+            "name": "CLanguage",
+            "image": "cLanguage",
+            "description": "Fast and versatile programming language with a clear structure, allowing you to create both small and large-scale projects for the PC and mobile devices."
+          },
+          {
+            "id": 2,
+            "name": "CPlusLanguage",
+            "image": "cPlusLanguage",
+            "description": "A comprehensive programming language for creating demanding AAA projects with rich visualization with multiplayer support on Unreal Engine."
+          },
+          {
+            "id": 3,
+            "name": "CSharpLanguage",
+            "image": "cSharpLanguage",
+            "description": "A powerful yet simple programming language that makes it easy to create indie games in Unity 3D and CryEngine for PC and mobile devices."
+          },
+          {
+            "id": 4,
+            "name": "Html",
+            "image": "htmlLanguage",
+            "description": "A simple language with fast implementation used to create browser games and indie projects: table games, tile-matching games, slots, and others."
+          },
+          {
+            "id": 5,
+            "name": "Unity-Technologies",
+            "image": "UnityTechnologies",
+            "description": "Cross-platform game engine featuring component-oriented approach and support for a huge number of platforms, technologies, and API."
+          },
+          {
+            "id": 6,
+            "name": "Unreal-Engine",
+            "image": "unrealEngine",
+            "description": "State-of-the-art engine with real-time photorealistic rendering, dynamic physics and effects, realistic animation and reliable data translation."
+          }
+        ]
       },
       "section4": {
+        "title": "Our Game Projects",
+        "subtitle": "Development Services",
+        "description": "We focus on providing Android game development services to create projects that stand out and stay in memory for long. Our Android game developers have extensive experience enabling us to help global gaming companies with their popular titles."
+      },
+      "section5": {
         "title": "Quick Facts",
         "subtitle": "About Us",
         "description": "We focus on providing Android game development services to create projects that stand out and stay in memory for long. Our Android game developers have extensive experience enabling us to help global gaming companies with their popular titles."
       },
-      "section5": {
+      "section6": {
         "title": "Our Fundamental Benefits",
         "subtitle": "in Android Game Development",
-        "description": "The key aspects of our approach to Android game app development are solid technical knowledge and excellent orientation in the players' desires and expectations. We follow all the wishes of the client and at the same time offer innovative and relevant solutions to increase the player's engagement and achieve a large number of game downloads."
-      },
-      "section6": {
-        "title": "Types of Android Games",
-        "subtitle": "We Develop"
+        "description": "The key aspects of our approach to Android game app development are solid technical knowledge and excellent orientation in the players' desires and expectations. We follow all the wishes of the client and at the same time offer innovative and relevant solutions to increase the player's engagement and achieve a large number of game downloads.",
+        "services": [
+          {
+            "id": 1,
+            "name": "Customized Android Mobile Game Development",
+            "image": "customize",
+            "title": "Customized Android Mobile Game Development",
+            "description": "Our Android game company provides efficient, high-quality and fully customized game development according to the wishes and requirements of the client. A flexible model of cooperation allows us to adapt to the required budget, select the optimal team composition, and be on time within the specified time frame with the implementation of all set goals."
+          },
+          {
+            "id": 2,
+            "name": "Rich Experience in the Gaming Industry",
+            "image": "usetExperience",
+            "title": "Rich Experience in the Gaming Industry",
+            "description": "We have been working in the Android video game development sphere for more than 8 years and we know perfectly well how to light not passable, but memorable games with unique graphics and original presentation. Our team understands all the ins and outs of game mechanics and engines, thanks to which our Android games are always perfectly optimized, dynamic and fun."
+          },
+          {
+            "id": 3,
+            "name": "Most Relevant Technologies and Techniques",
+            "image": "shild",
+            "title": "Most Relevant Technologies and Techniques",
+            "description": "We adhere to the highest standards in the Android gaming industry, follow the latest trends in the gaming market and use the most advanced technologies, approaches and creative ideas to always be one step ahead. When technological updates appear, we immediately take them into service and implement them in our work."
+          },
+          {
+            "id": 4,
+            "name": "Android Games with 10+ Million Downloads",
+            "image": "millionWays",
+            "title": "Android Games with 10+ Million Downloads",
+            "description": "It is important for our team not only to create a high-quality product, but also to bring maximum material value to the client. We are focused on creating exclusive, engaging and unique games that resonate with the gaming world, collect thousands of comments, get into the featured lists in the Google Play Store, and receive millions of downloads."
+          }
+        ]
       },
       "section7": {
         "title": "Types of Android Games",
-        "subtitle": "We Develop"
+        "subtitle": "We Develop",
+        "bgImage": "androidGamesBg",
+        "services": [
+          {
+            "id": 1,
+            "title": "Android Match-Three Game Development",
+            "description": "We create always relevant match-three games with intuitive, uncomplicated and at the same time addictive mechanics. Our games have the right balance of difficulty, perfect for your target audience, dynamic learning curve, and eye-catching visuals."
+          },
+          {
+            "id": 2,
+            "title": "Android Action-Adventure Game Developmentnt",
+            "description": "For games of this genre, our team thinks over a fascinating plot, provides active and engaging gameplay and skillfully combines classic quest puzzles with game tests for speed, reaction and endurance."
+          },
+          {
+            "id": 3,
+            "title": "Android Fighting Game Development",
+            "description": "Android game programming for fighting games involves creating an engaging battle arena and developing a lot of impressive fighting techniques. Our games enable the player to play with both AI and friends to enhance the competitive component."
+          },
+          {
+            "id": 4,
+            "title": "Android Simulation Game Development",
+            "description": " A very popular genre now, the simulation game needs serious preparation and flawless mechanics for maximum realism. We develop sports, economic and life simulators with stunning detail and thoughtful game design to completely immerse the player in the gaming environment."
+          },
+          {
+            "id": 5,
+            "title": "Android Strategy Game Development",
+            "description": "Make your players apply strategic thinking, analyze a lot and make the right decisions with our strategies. We offer addictive gameplay, an interesting plot and other features depending on the chosen setting, from large-scale battles to the development of the city and army."
+          },
+          {
+            "id": 6,
+            "title": "Android Arcade Puzzle Game Development",
+            "description": "Arcade games are simple, fun and addictive. Our Android game developers offer a wide variety of arcade games from elementary to intricate story-driven ones with the ability to play indefinitely, get rewards and achievements, and always make new challenges for players."
+          }
+        ]
+      },
+      "section8": {
+        "title": "Frequently",
+        "subtitle": "asked questions",
+        "services": [
+          {
+            "id": 1,
+            "question": "What Is Android Game Development?",
+            "answer": "What Is Android Game Development?"
+          },
+          {
+            "id": 2,
+            "question": "What Are the Stages of Android Game Development?",
+            "answer": "What Are the Stages of Android Game Development?"
+          },
+          {
+            "id": 3,
+            "question": "How to Hire Android Game Developers?",
+            "answer": "How to Hire Android Game Developers?"
+          },
+          {
+            "id": 4,
+            "question": "Why Outsource Android Game Development Services?",
+            "answer": "Why Outsource Android Game Development Services?"
+          }
+        ]
       }
     },
     "_id": "games/android.json",
