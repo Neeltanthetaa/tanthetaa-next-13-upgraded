@@ -32,6 +32,9 @@ module.exports = {
         inter: ["var(--font-inter)"],
         mono: ["var(--font-spacemono)"],
       },
+      boxShadow: {
+        gameShadow: "0px 4px 38px rgba(123, 63, 228, 0.16)",
+      },
       typography: {
         quoteless: {
           css: {
@@ -47,6 +50,9 @@ module.exports = {
     },
     variants: {
       fill: ["hover", "focus"], // this line does the trick
+    },
+    transitionProperty: {
+      height: "height",
     },
   },
   plugins: [

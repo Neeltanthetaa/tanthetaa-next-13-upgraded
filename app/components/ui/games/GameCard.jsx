@@ -8,6 +8,7 @@ export const GameCard = ({ content }) => {
   const handleClick = (id) => {
     setActiveTab(id);
   };
+
   return (
     <>
       <div className="grid container transition-all ease-in-out duration-300 mx-auto xl:grid-cols-2 gap-4 mt-28 place-content-center place-items-center">
@@ -15,36 +16,37 @@ export const GameCard = ({ content }) => {
           <div
             key={item?.id}
             onClick={() => handleClick(item?.id)}
-            // className={`border-2 cursor-pointer !h-full border-[#EAEAEA] rounded-[20px] p-10 max-w-2xl  hover:shadow-lg ${
-            //   activeTab === item?.id
-            //     ? "bg-[#043E86] rounded-[20px] border-none"
-            //     : "bg-white "
-            // }`}
             className={cx(
-              "border-2 cursor-pointer !h-full border-[#EAEAEA] rounded-[20px] p-10 max-w-2xl  hover:shadow-lg",
-              activeTab === item?.id
-                ? "bg-[#043E86] rounded-[20px] border-none"
-                : "bg-white"
+              "border-2 cursor-pointer !h-full border-[#EAEAEA] rounded-[20px] p-10 max-w-2xl  hover:shadow-lg shadow-gameShadow"
+
+              // activeTab === item?.id
+              //   ? "bg-[#7B3FE4] rounded-[20px] border-none"
+              //   : "bg-white shadow-gameShadow"
             )}
           >
             <h3
-              // className={`text-2xl font-semibold ${
-              //   activeTab === item?.id ? "text-white" : "text-black"
-              // }`}
               className={cx(
-                "text-2xl font-semibold",
-                activeTab === item?.id ? "text-white" : "text-black"
+                "text-2xl font-semibold font-mono",
+                item?.id === 1
+                  ? "text-[#CF9615]"
+                  : item?.id === 2
+                  ? "text-[#0BB2B2]"
+                  : item?.id === 3
+                  ? "text-[#DE1C90]"
+                  : item?.id === 4
+                  ? "text-[#B92A2A]"
+                  : item?.id === 5
+                  ? "text-[#2A0E99]"
+                  : "text-[#B430D6]"
+                // activeTab === item?.id ? "text-white" : "text-black"
               )}
             >
               {item?.title}
             </h3>
             <h5
-              // className={`mt-5  text-base font-normal ${
-              //   activeTab === item?.id ? "text-[#CCCCCC]" : "text-[#333333]"
-              // }`}
               className={cx(
-                "mt-5  text-base font-normal",
-                activeTab === item?.id ? "text-[#CCCCCC]" : "text-[#333333]"
+                "mt-5 text-base font-normal"
+                // activeTab === item?.id ? "text-[#CCCCCC]" : "text-[#333333]"
               )}
             >
               {item?.description}
