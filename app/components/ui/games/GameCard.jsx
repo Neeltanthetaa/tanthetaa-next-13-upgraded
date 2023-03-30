@@ -17,11 +17,11 @@ export const GameCard = ({ content }) => {
             key={item?.id}
             onClick={() => handleClick(item?.id)}
             className={cx(
-              "border-2 cursor-pointer !h-full border-[#EAEAEA] rounded-[20px] p-10 max-w-2xl  hover:shadow-lg shadow-gameShadow"
+              " cursor-pointer !h-full  rounded-[20px] p-10 max-w-2xl  hover:shadow-lg shadow-cardShadow"
 
               // activeTab === item?.id
               //   ? "bg-[#7B3FE4] rounded-[20px] border-none"
-              //   : "bg-white shadow-gameShadow"
+              //   : "bg-white shadow-cardShadow"
             )}
           >
             <h3

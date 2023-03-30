@@ -4,9 +4,9 @@ import React from "react";
 export const GameHead = ({ content, path }) => {
   return (
     <>
-      {/* 1st Blog */}
+      {/* 1st Blog  mt-16 md:mt-[140px]*/}
       <div
-        className={` max-h-min w-full  mt-16 md:mt-[140px]`}
+        className={` max-h-min w-full  `}
         style={{
           background: `url(${`/assets/${path}/${content.bgImage}.png`} ) no-repeat center center `,
           backgroundSize: "cover",

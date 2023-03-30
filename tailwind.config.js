@@ -33,7 +33,8 @@ module.exports = {
         mono: ["var(--font-spacemono)"],
       },
       boxShadow: {
-        gameShadow: "0px 4px 38px rgba(123, 63, 228, 0.16)",
+        cardShadow: "0px 4px 38px rgba(123, 63, 228, 0.16)",
+        buttonShadow: "0px 0px 10px rgba(65, 14, 173, 0.7)",
       },
       typography: {
         quoteless: {
@@ -46,6 +47,11 @@ module.exports = {
             },
           },
         },
+      },
+      colors: {
+        "regal-purple": "#410EAD",
+        "regal-purple-light": "#7B3FE4",
+        "regal-yellow": "#FFCF10",
       },
     },
     variants: {

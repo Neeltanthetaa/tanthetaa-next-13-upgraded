@@ -14,8 +14,9 @@ export const GameFaqs = ({ content }) => {
               className="rounded-2xl w-full md:max-w-7xl md:mx-auto border border-solid  border-[#B3B3B3
 ] "
             >
-              <div className="p-4 font-semibold text-base cursor-pointer">
+              <div className="p-4 flex justify-between items-center font-semibold text-base cursor-pointer">
                 <h3>{item?.question}</h3>
+                {isOpen === item?.id ? " - " : " + "}
               </div>
             </div>
             <p

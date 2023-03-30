@@ -9,13 +9,13 @@ import Image from "next/image";
 
 export const GamesSlider = () => {
   var settings = {
-    // infinite: true,
+    infinite: true,
     speed: 500,
-    slidesToShow: 2,
+    slidesToShow: 3,
     slidesToScroll: 1,
     dots: true,
-    // autoplay: true,
-    // autoplaySpeed: 3000,
+    autoplay: true,
+    autoplaySpeed: 3000,
   };
 
   const ClientSliderData = [
@@ -79,7 +79,9 @@ export const GamesSlider = () => {
                 <div className=" px-4 md:px-14 xl:px-28 my-auto">
                   <div className="flex justify-center">
                     <Image
-                      src={"/assets/games/sliderGames.png"}
+                      src={
+                        "/assets/games/android-game-development-services/sliderGames.png"
+                      }
                       alt="SliderImage"
                       width={300}
                       height={300}

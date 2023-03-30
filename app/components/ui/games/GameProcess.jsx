@@ -8,7 +8,7 @@ export const GameProcess = ({ content }) => {
           {content?.map((item) => (
             <div
               key={item?.id}
-              className="p-8 rounded-2xl h-full shadow-gameShadow hover:shadow-lg"
+              className="p-8 rounded-2xl h-full shadow-cardShadow hover:shadow-lg"
             >
               <h3 className="font-mono font-bold text-lg">
                 <span className="text-[#410EAD]">{item?.id}. </span> Analysing

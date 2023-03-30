@@ -83,7 +83,7 @@
       "title": "Cooperation Models",
       "subtitle": "Development Services",
       "description": "We offer services to our clients based on several interaction models that can be tailored to meet your specific needs. You can choose one of the available models or combine them. We are ready to help you by choosing the most suitable model for you.",
-      "image": "",
+      "image": "marioRunning",
       "services": [
         {
           "id": 1,
@@ -326,6 +326,106 @@
           "id": 4,
           "question": "Why Outsource Android Game Development Services?",
           "answer": "Why Outsource Android Game Development Services?"
+        }
+      ]
+    },
+    "section11": {
+      "title": "Latest Blogs",
+      "subtitle": "",
+      "description": "The key aspects of our approach to Android game app development are solid technical knowledge and excellent orientation in the players' desires and expectations. We follow all the wishes of the client and at the same time offer innovative and relevant solutions to increase the player's engagement and achieve a large number of game downloads.",
+      "services": [
+        {
+          "id": 1,
+          "link": "",
+          "name": "How Airlines Can Save Millions with Blockchain",
+          "image": "blogs1",
+          "title": "How Airlines Can Save Millions with Blockchain",
+          "description": "Blockchain is the latest buzz in the business world. This tech trend has been gaining traction in many industries, and the aviation sector is no exception. But…"
+        },
+        {
+          "id": 2,
+          "link": "",
+          "name": "How Airlines Can Save Millions with Blockchain",
+          "image": "blogs2",
+          "title": "How Airlines Can Save Millions with Blockchain",
+          "description": "Blockchain is the latest buzz in the business world. This tech trend has been gaining traction in many industries, and the aviation sector is no exception. But…"
+        },
+        {
+          "id": 3,
+          "link": "",
+          "name": "How Airlines Can Save Millions with Blockchain",
+          "image": "blogs1",
+          "title": "How Airlines Can Save Millions with Blockchain",
+          "description": "Blockchain is the latest buzz in the business world. This tech trend has been gaining traction in many industries, and the aviation sector is no exception. But…"
+        }
+      ]
+    },
+    "section12": {
+      "services": [
+        {
+          "id": 1,
+          "link": "",
+          "name": "iOS Game Development",
+          "image": "appleGame",
+          "title": "iOS Game Development",
+          "description": "We build reliable tailor-made Android app development solutions that fit best to your business needs.",
+          "buttonName": "<--- Know more"
+        },
+        {
+          "id": 2,
+          "link": "",
+          "name": "MMORPG Game Development",
+          "image": "videoGame",
+          "title": "MMORPG Game Development",
+          "description": "We build reliable tailor-made Android app development solutions that fit best to your business needs.",
+          "buttonName": "Know more --->"
+        }
+      ]
+    },
+    "section13": {
+      "title": "Our Games",
+      "services": [
+        {
+          "id": 1,
+          "name": "Custom Java applications",
+          "image": "https://aetsoft.net/wp-content/themes/spacetheme/new-design/img/pages-techs/java/service/service_icon_1.png",
+          "title": "Custom Java applications",
+          "description": "Our Java developers create custom software through a full-cycle development, delivering ERPs, mobile applications and systems for various industries.Our Java developers create custom software through a full-cycle development, delivering ERPs, mobile applications and systems for various industries."
+        },
+        {
+          "id": 2,
+          "name": "Web applications",
+          "image": "https://aetsoft.net/wp-content/themes/spacetheme/new-design/img/pages-techs/java/service/service_icon_2.png",
+          "title": "Web applications",
+          "description": "Our Java developers create custom software through a full-cycle development, delivering ERPs, mobile applications and systems for various industries.Our Java developers create custom software through a full-cycle development, delivering ERPs, mobile applications and systems for various industries."
+        },
+        {
+          "id": 3,
+          "name": "Cloud applications",
+          "image": "https://aetsoft.net/wp-content/themes/spacetheme/new-design/img/pages-techs/java/service/service_icon_3.png",
+          "title": "Cloud applications",
+          "description": "Our Java developers create custom software through a full-cycle development, delivering ERPs, mobile applications and systems for various industries.Our Java developers create custom software through a full-cycle development, delivering ERPs, mobile applications and systems for various industries."
+        },
+        {
+          "id": 4,
+          "name": "Desktop applications",
+          "image": "https://aetsoft.net/wp-content/themes/spacetheme/new-design/img/pages-techs/java/service/service_icon_4.png",
+          "title": "Desktop applications",
+          "description": "Our Java developers create custom software through a full-cycle development, delivering ERPs, mobile applications and systems for various industries.Our Java developers create custom software through a full-cycle development, delivering ERPs, mobile applications and systems for various industries."
+        },
+        {
+          "id": 5,
+          "name": "Migration to Java",
+          "image": "https://aetsoft.net/wp-content/themes/spacetheme/new-design/img/pages-techs/java/service/service_icon_5.png",
+          "title": "Migration to Java",
+          "description": "Our Java developers create custom software through a full-cycle development, delivering ERPs, mobile applications and systems for various industries.Our Java developers create custom software through a full-cycle development, delivering ERPs, mobile applications and systems for various industries."
+        },
+        {
+          "id": 6,
+          "name": "Ongoing support",
+          "image": "https://aetsoft.net/wp-content/themes/spacetheme/new-design/img/pages-techs/java/service/service_icon_6.png",
+          "title": "Ongoing support",
+          "description": "Our Java developers create custom software through a full-cycle development, delivering ERPs, mobile applications and systems for various industries.Our Java developers create custom software through a full-cycle development, delivering ERPs, mobile applications and systems for various industries."
         }
       ]
     }

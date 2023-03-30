@@ -79,7 +79,7 @@ export const metadata = {
 
 const RootLayout = ({ children }) => {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body className={cx(inter.variable, spacemono.variable, "font-inter ")}>
         <Scrolltop>{children}</Scrolltop>
       </body>

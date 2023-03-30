@@ -37,6 +37,7 @@
 		"shiki": "^0.14.1",
 		"slick-carousel": "^1.8.1",
 		"styled-components": "^5.3.9",
+		"swiper": "^9.1.1",
 		"typewriter-effect": "^2.19.0"
 	},
 	"devDependencies": {
