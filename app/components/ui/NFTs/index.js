@@ -9,3 +9,4 @@ export { NFTSpotlighted } from "./NFTSpotlighted";
 export { NFTBusiness } from "./NFTBusiness";
 export { NFTService } from "./NFTService";
 export { NFTFractures } from "./NFTFractures";
+export { NFTOffers } from "./NFTOffers";

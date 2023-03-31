@@ -4,6 +4,7 @@ import {
   NFTDevelopment,
   NFTFractures,
   NFTHead,
+  NFTOffers,
   NFTPackages,
   NFTPartners,
   NFTProcess,
@@ -33,11 +34,14 @@ const NFT = async ({ params }) => {
   const content = await getContent({ slug: `nfts/${params.nft}` });
 
   if (!content) return notFound();
-
+  // path={`nfts/${params.nft}`}
   return (
     <>
       {/* 1st Component Start */}
-      <NFTHead path={`nfts/${params.nft}`} content={content.data.header} />
+      <NFTHead
+        path={`nfts/nft-development-services`}
+        content={content.data.header}
+      />
       {/* 1st Component End */}
 
       {/* 2nd Component Start */}
@@ -47,7 +51,7 @@ const NFT = async ({ params }) => {
       {/* 3rd Component Start */}
       <NFTDevelopment content={content.data.section2} />
       <TokenDevelopment
-        path={`nfts/${params.nft}`}
+        path={`nfts/nft-development-services`}
         content={content.data.section2.services}
       />
       {/* 3rd Component End */}
@@ -55,19 +59,22 @@ const NFT = async ({ params }) => {
       {/* 4th Component Start */}
       <NFTDevelopment content={content.data.section3} />
       <NFTProcess
-        path={`nfts/${params.nft}`}
+        path={`nfts/nft-development-services`}
         content={content.data.section3.services}
       />
       {/* 4th Component End */}
 
       {/* 5th Component Start */}
+      <NFTOffers content={content.data.section4} />
       {/* In Progress */}
       {/* 5th Component End */}
 
       {/* 6th Component Start */}
       <NFTDevelopment content={content.data.section5} />
-      <NFTFractures />
-      {/* In Progress */}
+      <NFTFractures
+        path={`nfts/nft-development-services`}
+        content={content.data.section5}
+      />
       {/* 6th Component End */}
 
       {/* 7th Component Start */}
@@ -78,19 +85,22 @@ const NFT = async ({ params }) => {
       {/* 8th Component Start */}
       <NFTDevelopment content={content.data.section7} />
       <NFTPartners
-        path={`nfts/${params.nft}`}
+        path={`nfts/nft-development-services`}
         content={content.data.section7.services}
       />
       {/* 8th Component End */}
 
       {/* 9th Component Start */}
-      <NFTClients path={`nfts/${params.nft}`} content={content.data.section8} />
+      <NFTClients
+        path={`nfts/nft-development-services`}
+        content={content.data.section8}
+      />
       {/* 9th Component End */}
 
       {/* 10th Component Start */}
       <NFTDevelopment content={content.data.section9} />
       <NFTSpotlighted
-        path={`nfts/${params.nft}`}
+        path={`nfts/nft-development-services`}
         content={content.data.section9.services}
       />
       {/* 10th Component End */}
@@ -102,7 +112,7 @@ const NFT = async ({ params }) => {
 
       {/* 12th Component Start */}
       <NFTService
-        path={`nfts/${params.nft}`}
+        path={`nfts/nft-development-services`}
         content={content.data.section11}
       />
       {/* 12th Component End */}
@@ -115,14 +125,14 @@ const NFT = async ({ params }) => {
       {/* 14th Component Start */}
       <NFTDevelopment content={content.data.section13} />
       <Blogs
-        path={`nfts/${params.nft}`}
+        path={`nfts/nft-development-services`}
         content={content.data.section13.services}
       />
       {/* 14th Component End */}
 
       {/* 15th Component Start */}
       <PreviousOrNext
-        path={`nfts/${params.nft}`}
+        path={`nfts/nft-development-services`}
         content={content.data.section14.services}
       />
       {/* 15th Component End */}
