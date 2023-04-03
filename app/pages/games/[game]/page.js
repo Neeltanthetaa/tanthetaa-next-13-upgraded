@@ -19,19 +19,7 @@ import {
 import { allGuides } from "contentlayer/generated";
 import { notFound } from "next/navigation";
 
-export const generateStaticParams = async () => {
-	// const posts = await fetch("https://.../posts").then((res) => res.json());
-
-	// return posts.map((post) => ({
-	// 	slug: post.slug,
-	// }));
-
-	return [
-		{
-			game: "android-game-development-services",
-		},
-	];
-};
+export const dynamic = "force-dynamic";
 
 export const getContent = async ({ slug }) => {
 	const content = allGuides.find((guide) => guide.slug === slug);
