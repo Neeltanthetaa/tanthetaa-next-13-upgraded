@@ -19,6 +19,8 @@ import { Blogs } from "@/app/components/ui/common/Blogs";
 import ProjectsPartnership from "@/app/components/ui/common/ProjectsPartnership";
 import PreviousOrNext from "@/app/components/ui/common/PreviousOrNext";
 
+export const dynamic = "force-dynamic";
+
 export const getContent = async ({ slug }) => {
 	const content = allGuides.find((guide) => guide.slug === slug);
 	return content;

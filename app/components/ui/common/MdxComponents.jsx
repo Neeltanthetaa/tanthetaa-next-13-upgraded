@@ -2,7 +2,7 @@ const MDXComponents = {
 	a: (props) => {
 		return (
 			<a
-				className="relative inline-block text-blue-400 transition-all duration-300 ease-in-out border-b-2 border-transparent cursor-pointer hover:text-blue-500 hover:border-blue-500"
+				className="relative inline-block font-semibold transition-all duration-300 ease-in-out border-b-2 border-transparent cursor-pointer text-regal-purple-light hover:border-regal-purple-light"
 				target="_blank"
 				rel="noopener noreferrer"
 				{...props}

@@ -3,14 +3,14 @@
 		"header": {
 			"title": "Android Game",
 			"subtitle": "Development Services",
-			"description": "**Kevuru Games** is an [Android](https://www.android.com/intl/en_in/) <del>game development</del> company that has *tremendous experience* in creating ***top-notch*** 2D and 3D games for a wide variety of audiences. <br/><br/> We provide modern and technically advanced Android game development services that allow our customers to get the desired product on time, according to all requirements.",
+			"description": "Kevuru Games is an Android game development company that has tremendous experience in creating top-notch 2D and 3D games for a wide variety of audiences. We provide modern and technically advanced Android game development services that allow our customers to get the desired product on time, according to all requirements.",
 			"bgImage": "gameBackground",
 			"heroImage": "marioBattle"
 		},
 		"section1": {
 			"title": "Why choose us for",
 			"subtitle": "Games development",
-			"description": "We focus on providing Android game development services to create projects that stand out and stay in memory for long. Our Android game developers have extensive experience enabling us to help global gaming companies with their popular titles.",
+			"description": "**We** focus on providing [Android](https://www.android.com/intl/en_in/) <del>game development</del> services to *create projects* that ***stand out*** and stay in memory for long. <br/><br/> Our Android game developers have extensive experience enabling us to help global gaming companies with their popular titles.",
 			"services": [
 				{
 					"id": 1,
