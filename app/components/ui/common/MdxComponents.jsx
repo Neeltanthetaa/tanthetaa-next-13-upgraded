@@ -10,7 +10,8 @@ const MDXComponents = {
 		);
 	},
 	p: (props) => {
-		return <p className="" {...props} />;
+		return <>{props.children}</>;
+		// return <p className="" {...props} />;
 	},
 	em: (props) => {
 		return <em className="italic" {...props} />;

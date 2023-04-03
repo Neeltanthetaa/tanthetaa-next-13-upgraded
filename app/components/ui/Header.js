@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Markdown from "./common/Markdown";
 
 export const Header = ({ content, path }) => {
 	return (
@@ -16,11 +17,17 @@ export const Header = ({ content, path }) => {
 				<div className="grid items-center w-full h-full max-w-6xl grid-cols-1 gap-3 p-3 md:grid-cols-2">
 					<div className="col-span-1 leading-snug ">
 						<h1 className="font-mono text-4xl font-bold">
-							<span className="text-white">{content.title}</span>
+							<span className="text-white">
+								<Markdown text={content.title} />
+							</span>
 							<br />
-							<span className="text-yellow-500">{content.subtitle}</span>
+							<span className="text-yellow-500">
+								<Markdown text={content.subtitle} />
+							</span>
 						</h1>
-						<h5 className="text-white/70">{content.description}</h5>
+						<h5 className="text-white/70">
+							<Markdown text={content.description} />
+						</h5>
 					</div>
 					<div className="relative h-64 col-span-1">
 						<Image

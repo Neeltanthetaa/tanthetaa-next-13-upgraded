@@ -1,7 +1,6 @@
 "use client";
 import React, { useState } from "react";
 import { cx } from "class-variance-authority";
-import Markdown from "../common/Markdown";
 
 export const GameFaqs = ({ content }) => {
 	const [isOpen, setIsOpen] = useState(0);

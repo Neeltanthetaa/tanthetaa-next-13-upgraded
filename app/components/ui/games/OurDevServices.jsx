@@ -2,7 +2,6 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import Markdown from "../common/Markdown";
 
 export const OurDevServices = ({ content, path }) => {
 	const stylesServices = {
