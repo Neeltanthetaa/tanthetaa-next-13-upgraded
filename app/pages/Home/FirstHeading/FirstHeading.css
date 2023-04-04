@@ -1,0 +1,13 @@
+.Typewriter__wrapper {
+  font-family: "Space Mono";
+  font-style: normal;
+}
+
+.formula .Typewriter__wrapper,
+.formula {
+  font-family: "Allerta Stencil", sans-serif;
+}
+
+.Typewriter {
+  margin: 8px 0px;
+}

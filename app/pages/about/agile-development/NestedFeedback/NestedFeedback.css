@@ -1,0 +1,15 @@
+.pattern{
+  transform: skew(0deg);
+}
+
+.pattern p{
+  transform: skew(0deg);
+}
+ @media screen and (min-width: 480px) {
+  .pattern{
+  transform: skew(-50deg);
+}
+.pattern p{
+  transform: skew(50deg);
+}
+ }

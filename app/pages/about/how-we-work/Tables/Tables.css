@@ -1,0 +1,8 @@
+.design {
+  color: white;
+  transform: skew(-50deg);
+}
+
+.design p {
+  transform: skew(50deg) !important;
+}
