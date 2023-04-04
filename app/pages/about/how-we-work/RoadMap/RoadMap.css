@@ -1,0 +1,227 @@
+.process-col-left {
+  float: left;
+  width: 54%;
+}
+.clearfix:after,
+.clearfix:before {
+  content: " ";
+  display: table;
+}
+.preocee-wrap .heading5 {
+  margin: 20px 0 0;
+}
+.heading5 {
+  color: #333;
+  font: 24px/1.2;
+  position: relative;
+  margin: 20px 0 30px;
+}
+.process-name:before {
+  content: "";
+  height: 2px;
+  width: 475px;
+  border-bottom: 2px dotted #000000;
+  margin-left: 15px;
+  position: absolute;
+  left: 200px;
+  top: 16px;
+}
+.process-name .process-num {
+  background: #7b3fe4;
+  font-size: 18px;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 50%;
+  line-height: 2.3;
+  text-align: center;
+  margin-right: 20px;
+}
+.process .process-num {
+  background: #7b3fe4;
+  font-size: 18px;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 50%;
+  line-height: 2.3;
+  text-align: center;
+  margin-right: 20px;
+}
+.process-content {
+  padding: 0 0 0 62px;
+}
+.process-col-right .para,
+.process-content .para {
+  font: 18px;
+  margin: 10px 0;
+  color: #333;
+}
+.process-sub-head {
+  font: 18px;
+  margin: 14px 0;
+  color: #7b3fe4;
+}
+
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+.clearfix:after,
+.clearfix:before {
+  content: " " !important;
+  display: table !important;
+}
+.clear,
+.clearfix:after {
+  clear: both !important;
+}
+
+/* !................................................... end left */
+
+/* .................................................right ......................... */
+.process-col-right {
+  width: 44%;
+  max-width: 600px;
+  float: left;
+  padding: 20px 0 0;
+}
+.border-one {
+  border-left: 2px dotted #000000;
+  padding-left: 70px;
+  padding-bottom: 5px;
+  position: relative;
+}
+.border-one li {
+  margin-bottom: 40px;
+  /*min-height: 170px;*/
+  height: max-content;
+  position: relative;
+}
+.process-head-blue {
+  font: 18px;
+  color: #7b3fe4;
+  text-transform: uppercase;
+}
+.process-col-right .heading5 {
+  margin: 5px 0 0;
+}
+.circle_check {
+  position: absolute;
+  left: -96px;
+  background: #fff;
+  height: 50px;
+  width: 50px;
+  top: -8px;
+}
+.circle_check figure {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -43%);
+  -webkit-transform: translate(-50%, -43%);
+  -moz-transform: translate(-50%, -43%);
+  -ms-transform: translate(-50%, -43%);
+  -o-transform: translate(-50%, -43%);
+}
+.circle {
+  position: absolute;
+  left: -29px;
+  background: #fff;
+  height: 50px;
+  width: 50px;
+  top: -8px;
+}
+.circle figure {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -43%);
+  -webkit-transform: translate(-50%, -43%);
+  -moz-transform: translate(-50%, -43%);
+  -ms-transform: translate(-50%, -43%);
+  -o-transform: translate(-50%, -43%);
+}
+.process-col-right.fl-left {
+  float: right;
+}
+.no-T-lines {
+  padding: 80px 0 38px 50px;
+}
+.no-T-lines .process-name:before {
+  content: "";
+  height: 1px;
+  width: 0;
+  border-bottom: 0 solid #000000;
+  margin-left: 15px;
+  /*position: absolute;*/
+  left: 0;
+  top: 0;
+}
+.no-T-lines .process-name:after {
+  content: "";
+  height: 0;
+  border-right: 0 solid #000000;
+  margin-left: 15px;
+}
+.process-points li {
+  position: relative;
+  padding-left: 22px;
+  padding-bottom: 5px;
+}
+.testimonial-wrap {
+  padding: 0 0 0 80px;
+  float: right;
+  margin-right: -40px;
+}
+.testi-img-wrap {
+  margin: 30px 0;
+}
+
+/* ......................................... */
+.border-second {
+  border: 2px dotted #000000;
+  border-right: 0;
+  position: relative;
+  padding: 110px 0 0;
+  margin: -2px 0 0 50px;
+}
+.fc-left-wrap {
+  padding-left: 70px;
+}
+.fc-right-wrap {
+  padding-left: 0px;
+}
+.border-second .circle_check {
+  left: -26px;
+  top: 5px;
+}
+.border-second li {
+  position: relative;
+  margin-bottom: 70px;
+}
+/* !........................333333333333333333.................... */
+/*.start-p {
+    padding: 100px 0;
+}*/
+.border-one.border-three {
+  margin: -37px 0 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .tree2 {
+    display: block;
+  }
+
+  .wrappers {
+    display: none;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .process-name:before {
+    width: 350px;
+  }
+}

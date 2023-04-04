@@ -1,0 +1,21 @@
+#CircleDot,
+#CrossArrow {
+  transform-origin: center center;
+  /* animation: animeDot 20s linear infinite; */
+}
+@keyframes animeDot {
+  0% {
+    transform: rotate(calc(3.6deg * 100));
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.svg-color {
+  fill: #008e17 !important;
+  opacity: 1;
+}
+
+.animationaddCircle {
+  animation: animeDot 20s linear infinite;
+}

@@ -1,0 +1,82 @@
+.BgImg {
+  background-image: url("./../../../../../public/Img/About/Polygon.svg");
+  height: 220px;
+  width: 220px;
+}
+#boxs {
+  z-index: -99999;
+  position: relative;
+  margin: 0 auto;
+  height: 222.5px;
+  width: 220px;
+  background: #e5e5e5;
+  box-sizing: border-box;
+  clip-path: polygon(
+    50% 0,
+    90% 20%,
+    100% 60%,
+    75% 100%,
+    25% 100%,
+    0% 60%,
+    10% 20%
+  );
+  -webkit-clip-path: polygon(
+    50% 0,
+    90% 20%,
+    100% 60%,
+    75% 100%,
+    25% 100%,
+    0% 60%,
+    10% 20%
+  );
+  -moz-clip-path: polygon(
+    50% 0,
+    90% 20%,
+    100% 60%,
+    75% 100%,
+    25% 100%,
+    0% 60%,
+    10% 20%
+  );
+}
+#heptagon {
+  display: grid;
+  place-items: center;
+  position: absolute;
+  left: 2px;
+  right: 2px;
+  top: 2px;
+  bottom: 2px;
+  border: 1px solid #e5e5e5;
+  width: 216px;
+  height: 219px;
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  clip-path: polygon(
+    50% 0,
+    90% 20%,
+    100% 60%,
+    75% 100%,
+    25% 100%,
+    0% 60%,
+    10% 20%
+  );
+  -webkit-clip-path: polygon(
+    50% 0,
+    90% 20%,
+    100% 60%,
+    75% 100%,
+    25% 100%,
+    0% 60%,
+    10% 20%
+  );
+  -moz-clip-path: polygon(
+    50% 0,
+    90% 20%,
+    100% 60%,
+    75% 100%,
+    25% 100%,
+    0% 60%,
+    10% 20%
+  );
+}
